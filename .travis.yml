@@ -1,0 +1,12 @@
+language:ruby 
+bundler_args:--withoutdevelopment 
+script:"bundleexecrakebuild" 
+rvm:
+  - 2.0.0
+gemfile:
+  - Gemfile
+branches:
+  only:
+    - master
+    - develop
+
